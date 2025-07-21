@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "✅ Hello dari CI/CD GitHub Action DANIJUNTAK !"
+    return "✅ Hello dari CI/CD GitHub Action DANIJUNTA v2 !"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
